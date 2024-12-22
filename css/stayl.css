@@ -1,0 +1,897 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 3000px;
+
+}
+
+header {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+}
+.in{
+    border-radius: 10px;
+    width: 250px; height: 25px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: blue;
+}
+
+.home{
+    background-image: url(../imges/WhatsApp\ Image\ 2024-11-11\ at\ 2.23.47\ AM.jpeg);
+    width: 100%;
+    height: 100vh;
+   
+    position: relative;
+}
+.home-overlay{
+
+    position: absolute;
+    width: 100%;   height: 100%;
+    top: 0;   left: 0;
+   
+    background-color: rgba(0, 0, 0, 0.5) ;
+
+}
+.home-cont{
+    width: 60%;
+    position: absolute;
+    top: 50%;  left: 50%; 
+    transform: translate(-50% , -50%); 
+    text-align: center;
+    position: relative;
+
+
+
+}
+.home-title{
+
+    color: aliceblue;
+    font-size: 55px;
+    text-transform: uppercase;
+
+}
+.home-ap{
+    color: aliceblue;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+
+}
+
+.home-btn{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.home-btn2{
+
+    background-color: blue;
+    color: aliceblue;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.home-btn:hover{
+    opacity: 0.5;
+
+
+}
+
+.ali{
+    background-color: blue;
+    width: 100px;   height: 200px;
+}
+
+
+
+
+.continer{
+    width: 80%; margin: auto;
+    position: relative;
+}
+.mom-a1{
+    float: left;
+   
+    width: 30%;
+    padding: 14px  18px;
+    text-align: center;
+
+}
+.bb{
+ margin:0px  15px ;
+}
+.mom-img{
+    width: 90%;  margin: auto;
+    position: relative;
+   
+
+}
+.mom-img img {
+    width: 100%; 
+
+}
+.mom-ovar{
+    position: absolute;
+    top: 0px;
+    width: 100%;  height: 100%;
+    background-color: rgb(0, 0, 0,0.1); 
+}
+.mom-ovar a{
+    display: block;
+    width: 30px;
+    background-color: rgb(70, 70, 230);
+    color: aliceblue;
+    font-size: 23px;
+    margin-left:auto;
+    
+} 
+.mom-ovar a i{
+
+    line-height: 40px;
+}
+.mom-s1 {
+    text-transform: capitalize;
+    color: rgb(13, 14, 14);
+
+}
+.mom-a1:hover .mom-info-titel{
+    color: #8a8f51;
+}
+
+.ti1{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.ti2{
+    width: 130px;  height: 8px;
+    
+    margin-left: 702px;
+    margin-top: 10px;
+}
+.continer2{
+
+    width: 80%; margin: auto;
+    position: relative;
+
+margin-top: 400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  header {
+   
+    padding: 10px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  h1 {
+    font-size: 28px;
+   
+    margin-top: 20px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #000000;
+    margin: 10px auto 0;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .icon {
+    font-size: 40px;
+   
+    margin-bottom: 10px;
+  }
+  .card h3 {
+    font-size: 20px;
+    
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 14px;
+    
+    margin-bottom: 10px;
+  }
+  .card a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .card a:hover {
+    text-decoration: underline;
+  }
+  .ali22{
+       background-color: #f9f9f9;
+  }
+  .h0{
+    margin: auto;
+  }
+
+
+
+
+  .container3{
+
+     height: 1000px;
+     background-color: #eaedca;  
+     
+  }
+  .imgs{
+    
+    border:#666
+
+    
+    
+    
+  }
+  /* //////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+    
+  .ti3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+      
+  }
+  
+   
+  .box1{
+    
+    width: 350px;   height: 230px; 
+    border-radius: 10px;
+    margin-right: 150px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+    
+      
+    } /*o1*/
+    .box1:hover{
+  
+      color: #597aa2;
+    }
+    .d1{
+      width: 250px;
+      margin: auto;
+     }
+  
+  
+    .box2{
+    
+      width: 450px;   height: 230px;  margin-right: 100px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+     
+  
+        
+      }/*02*/
+      .box2:hover{
+  
+        color: #597aa2;
+      }
+      .d2{
+        width: 250px;
+        margin: auto;
+       }
+  
+   
+      .box3{
+        
+        width: 350px;   height: 230px;  margin-left: 100px;
+           
+           
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+              padding: 20px;
+              
+              transition: transform 0.3s ease;
+        }/*o3*/
+        .box3:hover{
+  
+          color: #597aa2;
+        }
+        .d3{
+          width: 250px;
+          margin: auto;
+         }
+  
+     
+  
+        .box4{
+        
+          width: 350px;   height: 230px;  
+          
+         
+          border-radius: 10px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+          }/*o4*/
+  
+          .box4:hover{
+  
+            color: #597aa2;
+          }
+          .d4{
+            width: 250px;
+            margin: auto;
+           }
+  
+       
+  
+          .box5{
+            
+           
+            width: 450px;   height: 230px;  margin-right: 100px;
+             border-radius: 10px;
+             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+             text-align: center;
+  
+            }/*o5*/
+  
+            .box5:hover{
+  
+              color: #597aa2;
+            }
+             .d5{
+              width: 205px;
+              margin: auto;
+             }
+  
+            .box6{
+             
+              width: 350px;   height: 230px;   margin-left: 100px;
+             
+             
+              border-radius: 10px;
+              box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                text-align: center;
+                transition: transform 0.3s ease;
+              }/*o6*/
+              .box6:hover{
+  
+                color: #597aa2;
+              }
+              .d6{
+                width: 250px;
+                margin: auto;
+               }
+         
+
+           
+
+               /**************************************جبل احد****************************/
+
+
+
+              
+          
+              
+              
+              h1 {
+                font-size: 2em;
+                color: #000;
+                margin-bottom: 10px;
+              }
+              
+              .intro {
+                font-size: 1em;
+                color: #777;
+                margin-bottom: 20px;
+                line-height: 1.6;
+              }
+              
+              .features {
+                list-style-type: none;
+                padding: 0;
+              }
+              
+              .features li {
+                font-size: 1em;
+                margin-bottom: 10px;
+                color: #333;
+              }
+              
+              .image-section img {
+            
+                border-radius: 8px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+              }
+
+              .ahd{
+
+                margin-top: 150px;
+              }
+              .bu1{
+                width: 100px; 
+              }
+              
+               /**********************************************جبل احد النهايه*****************************************/
+
+
+               body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                color: #fff;
+              }
+              
+              .statistics {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 40px;
+                background: url('background.jpg') no-repeat center center/cover; /* استبدل background.jpg بمسار الصورة */
+              }
+              
+              .stat {
+                text-align: center;
+              }
+              
+              .icon {
+                font-size: 40px;
+                color: #b89bd9; /* لون الأيقونة */
+                margin-bottom: 10px;
+              }
+              
+              h2 {
+                font-size: 24px;
+                margin: 5px 0;
+                color: #b89bd9;
+              }
+              
+              p {
+                font-size: 16px;
+                margin: 0;
+                color: #ddd;
+              }
+
+              .statistics{
+                margin-top: 300px;
+              }
+              
+             /**********************************************************************************************************************************/
+
+
+
+             body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #f9f9f9;
+              color: #333;
+            }
+            
+            .pricing-table {
+              text-align: center;
+              padding: 50px 20px;
+            }
+            
+            .title {
+              font-size: 2rem;
+              color: #333;
+              margin-bottom: 20px;
+              text-transform: capitalize;
+              border-bottom: 2px solid #b89bd9;
+              display: inline-block;
+            }
+            
+            .cards {
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;
+              gap: 20px;
+            }
+            
+
+
+
+            .card1 {
+              background: #fff;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              width: 300px; height: 350px;
+              padding: 20px;
+              text-align: center;
+            }
+
+.card1:hover {
+transform: scale(1.05); /* يكبر حجم البطاقة قليلاً */
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* يزيد الظل عند التفاعل */
+} 
+
+
+
+            .card2 {
+              background: #fff;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              width: 300px; height: 400px;
+              padding: 20px;
+              text-align: center;
+            }
+
+
+.card2:hover {
+  transform: scale(1.05); /* يكبر حجم البطاقة قليلاً */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* يزيد الظل عند التفاعل */
+}
+
+
+            .card3 {
+              background: #fff;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              width: 300px; height: 500px;
+              padding: 20px;
+              text-align: center;
+            }
+             
+
+              
+.card3:hover {
+  transform: scale(1.05); /* يكبر حجم البطاقة قليلاً */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* يزيد الظل عند التفاعل */
+}
+            
+
+            
+            .card h2 {
+              font-size: 1.5rem;
+              color: #333;
+            }
+            
+            .price {
+              margin: 20px 0;
+              font-size: 1.8rem;
+              color: #b89bd9;
+            }
+            
+            .price .amount {
+              font-weight: bold;
+              font-size: 2rem;
+            }
+            
+            .price .unit {
+              font-size: 0.8rem;
+              color: #666;
+            }
+            
+            .card ul {
+              list-style: none;
+              padding: 0;
+              margin: 20px 0;
+              color: #666;
+            }
+            
+            .card ul li {
+              margin: 10px 0;
+            }
+            
+            button {
+              background-color: #fff;
+              border: 1px solid #b89bd9;
+              color: #b89bd9;
+              padding: 10px 20px;
+              border-radius: 20px;
+              cursor: pointer;
+              font-weight: bold;
+            }
+            
+            button:hover {
+              background-color: #b89bd9;
+              color: #fff;
+              transition: 0.3s;
+            }
+            
+            /*********************************************************نهايه الكروت*************************************************************/
+
+
+
+            .pa1{
+              position: relative;
+              background-image: url("../imges/WhatsApp\ Image\ 2024-11-11\ at\ 2.23.47\ AM.jpeg  ");
+              height: 300px;
+              background-attachment:fixed;
+              background-size: cover;
+            }
+           
+            .team {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 20px;
+              padding: 50px 20px;
+            }
+            
+            .profile-pic {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              object-fit: cover;
+              margin-bottom: 15px;
+            }
+            
+            .role {
+              color: #3366cc;
+              font-weight: bold;
+              margin: 5px 0;
+            }
+            .uuu{
+              background-color: black;
+              opacity: 0.5; /* شفافية بنسبة 50% */
+              color: white; /* النصوص أيضًا ستتأثر */
+              padding: 20px;
+            }
+            
+            
+
+            /************************************************************المتسلقات***************************************************************/
+
+
+
+
+            
+            .cl{
+              color: #000;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .team-section {
+              padding: 50px 20px;
+            }
+            
+            .team-section h2 {
+              font-size: 2rem;
+              margin-bottom: 20px;
+              position: relative;
+              display: inline-block;
+            }
+            
+            .team-section h2::after {
+              content: "";
+              display: block;
+              width: 50px;
+              height: 3px;
+              background-color: #000000;
+              margin: 5px auto 0;
+            }
+            
+            .team-container {
+              display: flex;
+              justify-content: center;
+              gap: 20px;
+              flex-wrap: wrap;
+            }
+            
+            .team-card1{
+              background: #f8f8f8;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              padding: 20px;
+              width: 400px;  height: 400px;
+              text-align: center;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .team-card1:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+
+
+            .team-card2{
+              background:  #f8f8f8;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              padding: 20px;
+              width: 400px;  height: 450px;
+              text-align: center;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .team-card2:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+            
+
+
+
+            .team-card3{
+              background: #f8f8f8;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              padding: 20px;
+              width: 400px;  height: 400px;
+              text-align: center;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .team-card3:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+            
+            
+            .team-img {
+              width: 300px;
+              height: 300px;
+              border-radius: 5px;
+              object-fit: cover;
+              margin-bottom: 15px;
+            }
+            
+            .team-card h3 {
+              font-size: 1.2rem;
+              margin-bottom: 5px;
+            }
+            
+            .team-card p {
+              font-size: 0.9rem;
+              color: #666;
+              margin: 0;
+            }
+            /*************************************************************************************************************************/
+
+
+
+            .team-card5{
+              background: #ffffff;;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              padding: 20px;
+              width: 400px;  height: 580px;
+              text-align: center;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .team-card5:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+
+
+
+            .team-card6{
+              background: #ffffff;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              padding: 20px;
+              width: 400px;  height: 620px;
+              text-align: center;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .team-card6:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+
+
+
+            .team-card7{
+              background: #ffffff;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              padding: 20px;
+              width: 400px;  height: 650px;
+              text-align: center;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .team-card7:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+
+            /* Social Icons */
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons .icon {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #666;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #3366cc; /* اللون عند التمرير */
+  transform: scale(1.2); /* تكبير عند التمرير */
+}
+
+/*************************************************************************************************/
+
+.team-card8{
+ background-color: #3e0303;
+  width: 100%; height: 500px;
+
+}
+ .img0{
+  border-radius: 10px;
+ }
